@@ -33,11 +33,6 @@ Resources:
 
   VoteTable:
     Type: AWS::Serverless::SimpleTable
-    Properties:
-      TableName: votes
-      PrimaryKey:
-        Name: ID
-        Type: String
         
 Outputs:
   # ServerlessRestApi is an implicit API created out of Events key under Serverless::Function

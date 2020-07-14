@@ -25,7 +25,7 @@ type dependency struct {
 
 // Record represents one record in the DynamoDB table
 type Record struct {
-	ID   string
+	ID   string `dynamodbav:"id"`
 	Body string
 }
 
